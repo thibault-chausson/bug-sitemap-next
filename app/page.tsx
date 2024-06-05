@@ -1,4 +1,7 @@
 /** Add your relevant code here for the issue to reproduce */
 export default function Home() {
-  return null;
+  return <>
+    <p>Site map bug</p>
+    <a href="/sitemap.xml">Sitemap.xml</a>
+  </>;
 }
